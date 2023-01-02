@@ -1,7 +1,10 @@
-.elemento:hover {
-    color: white;
+.pseudo-elementos:hover {
     background-color: green;
+    color: white;
 }
-
-
-
+.pseudo-elementos::after {
+    content: "Pasa por encima"
+}
+.pseudo-elementos:hover::after {
+    content: "¡Hecho!"
+}
